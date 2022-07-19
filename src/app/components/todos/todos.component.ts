@@ -9,6 +9,7 @@ import{Todo} from './../../models/Todo';
 export class TodosComponent implements OnInit {
 
   title = "Merhaba deneme";
+  firstName = "Benim adım Hilal"
 
   todos:Todo[] | undefined;
 
@@ -21,7 +22,7 @@ export class TodosComponent implements OnInit {
       completed:false},
       {content:'Second todo', completed:true}
     ]
-    
+
   }
 
 }
