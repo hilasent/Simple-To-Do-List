@@ -3,13 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TodosComponent } from './components/todos/todos.component';
+import { NavComponent } from './components/nav/nav.component';
+import { ProductComponent } from './components/product/product.component';
+import { CategoryComponent } from './components/category/category.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    TodosComponent
-  ],
+    NavComponent,
+    ProductComponent,
+    CategoryComponent
+   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule
